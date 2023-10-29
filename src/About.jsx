@@ -60,7 +60,7 @@ const About = () => {
         </Wrapper>
       </section>
       <section className='mt-10 mb-40'>
-        <Wrapper margin={true} classes="flex sm:flex-row flex-col sm:gap-y-0 gap-y-10 justify-evenly">
+        <Wrapper margin={true} classes="flex sm:flex-row flex-col sm:gap-y-0 gap-y-10 justify-evenly items-center">
           {
             eventItems?.map((item,index) =>
               <Card sx={{ maxWidth: 345, borderRadius: "16px" }} key={item+index}>

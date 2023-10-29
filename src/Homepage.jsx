@@ -114,7 +114,7 @@ const Homepage = () => {
               menuItems.map((item,index) => 
                 <div className="flex flex-col bg-neutral-100 rounded-[16px] gap-y-10 font-light pb-10" key={item+index}>
                   <LazyLoadImage
-                    className='rounded-t-[16px] w-[400px] h-[200px] object-cover'
+                    className='rounded-t-[16px] w-[620px] h-[200px] object-cover'
                     src={item.image}
                     alt='Bruchetta'
                     effect='blur'
